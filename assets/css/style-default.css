@@ -2175,7 +2175,7 @@ button {
 /* 2.6 Schedule SECTION
 ---------------------------------------------------------------------*/
 .lgx-schedule .lgx-inner {
-  background: url('http://placehold.it/1920x544') bottom center no-repeat;
+  background: url('/assets/img/devday.jpg') bottom center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
