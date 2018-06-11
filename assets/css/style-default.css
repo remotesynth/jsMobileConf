@@ -1065,7 +1065,7 @@ button {
 /* FOR HOME PAGE 4 Banner Area
 -------------------------------------------*/
 .lgx-banneranother {
-  background: url('http://placehold.it/1920x861') top center no-repeat fixed;
+  background: url('/assets/img/boston.jpg') top center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1092,7 +1092,7 @@ button {
   /* IE6-9 */
 }
 .lgx-banneranother .lgx-inneranother {
-  background: url('http://placehold.it/782x905') bottom right no-repeat;
+  background: url('/assets/img/boston.jpg') bottom right no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -1152,7 +1152,7 @@ button {
   display: block;
 }
 .lgx-banner-gradient {
-  background: url('http://placehold.it/1920x861') center center no-repeat fixed;
+  background: url('/assets/img/boston.jpg') center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1163,7 +1163,7 @@ button {
   padding: 0 20%;
 }
 .lgx-banner-gradient .lgx-banner-style {
-  background: url('http://placehold.it/1700x500') top left no-repeat;
+  background: url('/assets/img/boston.jpg') top left no-repeat;
   -webkit-background-size: 100% 100%, cover;
   -o-background-size: 100% 100%, cover;
   -moz-background-size: 100% 100%, cover;
@@ -1470,7 +1470,7 @@ button {
 /* FOR CONTENT SLIDER
 -------------------------------------------*/
 .lgx-contentslider {
-  background: url('http://placehold.it/1920x861') top center no-repeat fixed;
+  background: url('/assets/img/boston.jpg') top center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1710,7 +1710,7 @@ button {
   display: inline-block;
 }
 .lgx-about-video {
-  background: url('http://placehold.it/800x300') center center no-repeat;
+  background: url('/assets/img/boston.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -2013,7 +2013,7 @@ button {
   animation-timing-function: linear;
 }
 .lgx-speakers-black {
-  background: url('http://placehold.it/1920x1002') center center no-repeat fixed;
+  background: url('/assets/img/boston.jpg') center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -2039,7 +2039,7 @@ button {
 /* 2.5  Video SECTION
 ---------------------------------------------------------------------*/
 .lgx-video {
-  background: url('http://placehold.it/1920x721') center center no-repeat;
+  background: url('/assets/img/boston.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -2383,7 +2383,7 @@ button {
 /* 2.7  Sponsors SECTION
 ---------------------------------------------------------------------*/
 .lgx-sponsors {
-  background: url('http://placehold.it/1920x1187') center center no-repeat;
+  background: url('/assets/img/stanimira.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -2474,7 +2474,7 @@ button {
 /* 2.9 Register
 ---------------------------------------------------------------------*/
 .lgx-register {
-  background: url('http://placehold.it/1920x1002') center center no-repeat fixed;
+  background: url('/assets/img/ladyleet.jpg') center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -2605,7 +2605,7 @@ button {
   background: rgba(66, 189, 65, 0.85);
 }
 .lgx-register-slider {
-  background: url('http://placehold.it/1920x1002') center center no-repeat fixed;
+  background: url('/assets/img/ladyleet.jpg') center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -3185,7 +3185,6 @@ button {
   text-align: center;
 }
 .lgx-footer .lgx-footer-bg {
-  background: url('http://placehold.it/1920x1002') bottom left no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -3342,7 +3341,7 @@ button {
 .single-post .lgx-banner-inner .lgx-inner-bg,
 .page .lgx-banner-inner .lgx-inner-bg,
 .page-template .lgx-banner-inner .lgx-inner-bg {
-  background: url('http://placehold.it/1700x500') top left no-repeat;
+  background: url('/assets/img/boston.jpg') top left no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
