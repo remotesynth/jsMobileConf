@@ -40,47 +40,11 @@
                                         </div>
                                         <div class="collapse navbar-collapse">
                                             <ul class="nav navbar-nav lgx-nav">
-                                                <li class="dropdown">
-                                                    <a href="JavaScript:void(0);">All Page<b class="caret"></b></a>
-                                                    <ul class="dropdown-menu multi-level">
-                                                        <li><a href="index.html">Home (Default)</a></li>
-                                                        <li><a href="index-banner.html">Home Banner</a></li>
-                                                        <li><a href="index-typed.html">Home Typed</a></li>
-                                                        <li><a href="index-slider.html">Home Slider</a></li>
-                                                        <li><a href="index-contentslider.html">Home ContentSlider</a></li>
-                                                        <li><a href="index-gradient.html">Home Gradient</a></li>
-                                                        <li class="dropdown-submenu">
-                                                            <a href="JavaScript:void(0);">Inner Pages <b class="caret"></b></a>
-                                                            <ul class="dropdown-menu">
-                                                                <li class="dropdown-submenu hidden-sm hidden-xs">
-                                                                    <a href="#">Blog Pages <b class="caret"></b></a>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li><a href="index.html#lgx-blog" class="lgx-scroll">Home Blog </a></li>
-                                                                        <li><a href="blog-list.html">Blog List</a></li>
-                                                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown-submenu hidden-sm hidden-xs">
-                                                                    <a href="JavaScript:void(0);">Speakers<b class="caret"></b></a>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li><a href="index.html#lgx-speakers">Home Speakers</a></li>
-                                                                        <li><a href="speakers-list.html">Speakers List</a></li>
-                                                                        <li><a href="speaker-single.html">Speakers Single</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><a href="sponsors-list.html">Sponsors</a></li>
-                                                                <li><a href="gallery.html">Video</a></li>
-                                                                <li><a href="contact.html">Contact</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
                                                 <li><a class="lgx-scroll" href="#lgx-speakers">Speaker</a></li>
                                                 <li><a class="lgx-scroll" href="#lgx-schedule">Schedule</a></li>
                                                 <li><a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a></li>
                                                 <li><a class="lgx-scroll" href="#lgx-register">Register</a></li>
-                                                <li><a class="lgx-scroll" href="#lgx-blog">News</a></li>
-                                                <li><a class="lgx-scroll" href="contact.html">Contact</a></li>
+                                                <li><a class="lgx-scroll" href="#lgx-coc">Code of Conduct</a></li>
                                                 <li><a class="lgx-scroll lgx-btn" href="#lgx-register"><span>Buy Ticket</span></a></li>
                                             </ul>
                                         </div>
@@ -129,238 +93,15 @@
 </section>
 <!--BANNER END-->
 
-
 {% include speakers.html %}
 
 {% include schedule.html %}
 
 {% include sponsors.html %}
 
-<!--TRAVEL INFO-->
-<section>
-    <div id="lgx-travelinfo" class="lgx-travelinfo">
-        <div class="lgx-inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <div class="lgx-heading-area">
-                            <h2 class="lgx-heading">
-                                <span class="back-heading"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
-                                <span class="heading">Travel Info</span>
-                            </h2>
-                            <p class="text">
-                                Conferences dedicated to building remarkable events.
-                            </p>
-                        </div>
-                    </div>
-                    <!--//main COL-->
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="single">
-                            <img src="assets/img/info-icon1.png" alt="location"/>
-                            <h3 class="title">Venue</h3>
-                            <p class="info"><a href="http://www.aloftbostonseaportdistrict.com/?SWAQ=958P">Aloft Boston Seaport</a><br>401-403 D Street<br>Boston, MA, 02210</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="single">
-                            <img src="assets/img/info-icon2.png" alt="Transport"/>
-                            <h3 class="title">Transport</h3>
-                            <p class="info"><a href="http://www.massport.com/logan-airport/">Boston Logan International</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="single">
-                            <img src="assets/img/info-icon3.png" alt="Hotel & Restaurant"/>
-                            <h3 class="title">Hotel</h3>
-                            <p class="info"><a href="http://www.aloftbostonseaportdistrict.com/?SWAQ=958P">Aloft Boston Seaport</a><br>401-403 D Street<br>Boston, MA, 02210</p>
-                        </div>
-                    </div>
-                </div>
-                <!--//.ROW-->
-            </div>
-            <!-- //.CONTAINER -->
-        </div>
-    </div>
-</section>
-<!--TRAVEL INFO END-->
+{% include travel.html %}
 
 {% include register.html %}
-
-<!--BLOG-->
-<section>
-    <div id="lgx-blog" class="lgx-blog">
-        <div class="lgx-inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="lgx-heading-area">
-                            <h2 class="lgx-heading">
-                                <span class="back-heading"><i class="fa fa-newspaper-o" aria-hidden="true"></i></span>
-                                <span class="heading">Latest Updates</span>
-                            </h2>
-                            <p class="text">
-                                Conferences dedicated to building remarkable events.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!--//.ROW-->
-
-                <div class="blog-area">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6">
-                            <div class="lgx-card-single">
-                                <div class="card-inner">
-                                    <figure>
-                                        <a class="" href="blog-single.html"><img src="http://placehold.it/1167x565" alt="blog"/></a>
-                                    </figure>
-                                    <div class="content">
-                                        <div class="cat-icon">
-                                            <span>
-                                                <i class="fa fa-file-image-o" aria-hidden="true"></i>
-                                            </span>
-                                        </div>
-                                        <div class="text-area">
-                                            <h3 class="title"><a href="blog-single.html">Internet Searches Inspire Because they Are Charitable Mahatmas</a></h3>
-                                            <div class="hits-area">
-                                                <span class="date"><a href="#">25 July 2016</a></span>
-                                                <span class="hit-right">
-                                                    <a href="#">50 Comments</a>
-                                                    <a href="#">500 Views</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="lgx-card-single">
-                                <div class="card-inner">
-                                    <figure>
-                                        <a class="" href="blog-single.html"><img src="http://placehold.it/1167x565" alt="blog"/></a>
-                                    </figure>
-                                    <div class="content">
-                                        <div class="cat-icon">
-                                            <span>
-                                                <i class="fa fa-file-image-o" aria-hidden="true"></i>
-                                            </span>
-                                        </div>
-                                        <div class="text-area">
-                                            <h3 class="title"><a href="blog-single.html">Internet Searches Inspire Because they Are Charitable Mahatmas</a></h3>
-                                            <div class="hits-area">
-                                                <span class="date"><a href="#">25 July 2016</a></span>
-                                                <span class="hit-right">
-                                                    <a href="#">50 Comments</a>
-                                                    <a href="#">500 Views</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lgx-btn-area">
-                    <a class="lgx-btn lgx-btn-big" href="blog-list.html"><span>View More News</span></a>
-                </div>
-            </div><!-- //.CONTAINER -->
-
-        </div><!-- //.INNER -->
-
-    </div>
-</section>
-<!--BLOG END-->
-
-
-<!--TESTIMONIALs-->
-<section>
-    <div id="lgx-testimonials"  class="lgx-testimonials">
-        <div class="lgx-inner">
-            <div class="container">
-                <div class="lgx-content">
-
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="lgx-heading-area">
-                                <h2 class="lgx-heading">
-                                    <span class="back-heading"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                    <span class="heading">Testimonials</span>
-                                </h2>
-                                <p class="text">
-                                    Conferences dedicated to building remarkable events.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--//.ROW-->
-
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="lgx-testiowlarea">
-                                <div id="lgx-owltestimonial" class="owl-carousel lgx-owltestimonial">
-
-                                    <div class="item lgx-fadeInLeft">
-                                        <figure class="lgx-client-image">
-                                            <img class="lgx-zoomIn"  src="http://placehold.it/190x190" alt="testpersion1"/>
-                                            <figcaption class="lgx-zoomIn-q">
-                                                <i class="fa fa-quote-left"></i>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="testi-info-area">
-                                            <p class="lgx-review">
-                                                Quisque ac velit urna. Nunc non nisi sed ante eleifend rhoncus non at sem. Nam luctus
-                                                facilisis erat, rutrum luctus sapien tincidunt eu. Vivamus rutrum finibus nisi, sit amet
-                                                venenatis lorem vulputate sed. Donec porttitor dolor sit amet!
-                                            </p>
-                                            <h4 class="lgx-client-name">Jonathona Islam Sagar<span>CEO of LogicHunt</span></h4>
-                                        </div>
-                                    </div> <!--//.Item-->
-                                    <div class="item lgx-fadeInLeft">
-                                        <figure class="lgx-client-image">
-                                            <img class="lgx-zoomIn"  src="http://placehold.it/190x190" alt="testpersion1"/>
-                                            <figcaption class="lgx-zoomIn-q">
-                                                <i class="fa fa-quote-left"></i>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="testi-info-area">
-                                            <p class="lgx-review">
-                                                Quisque ac velit urna. Nunc non nisi sed ante eleifend rhoncus non at sem. Nam luctus
-                                                facilisis erat, rutrum luctus sapien tincidunt eu. Vivamus rutrum finibus nisi, sit amet
-                                                venenatis lorem vulputate sed. Donec porttitor dolor sit amet!
-                                            </p>
-                                            <h4 class="lgx-client-name">Jonathon Roy Jewel<span>CEO of LogicHunt</span></h4>
-                                        </div>
-                                    </div> <!--//.Item-->
-                                    <div class="item lgx-fadeInLeft">
-                                        <figure class="lgx-client-image">
-                                            <img class="lgx-zoomIn"  src="http://placehold.it/190x190" alt="testpersion1"/>
-                                            <figcaption class="lgx-zoomIn-q">
-                                                <i class="fa fa-quote-left"></i>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="testi-info-area">
-                                            <p class="lgx-review">
-                                                Quisque ac velit urna. Nunc non nisi sed ante eleifend rhoncus non at sem. Nam luctus
-                                                facilisis erat, rutrum luctus sapien tincidunt eu. Vivamus rutrum finibus nisi, sit amet
-                                                venenatis lorem vulputate sed. Donec porttitor dolor sit amet!
-                                            </p>
-                                            <h4 class="lgx-client-name">Devid Jonathona Roy<span>CEO of LogicHunt</span></h4>
-                                        </div>
-                                    </div> <!--//.Item-->
-                                </div><!--l//#LGX-OWL TESTIMONIAL-->
-                            </div>
-                        </div> <!--//.COL 12 -->
-                    </div> <!--//.ROW-->
-                </div> <!--//.LGX CONTENT-->
-            </div> <!--//.CONTAINER-->
-        </div><!--//.LGX INNER-->
-    </div><!--//.LGX SECTION -->
-</section>
-<!--TESTIMONIALS END-->
-
 
 <!--GOOGLE MAP-->
 <div class="innerpage-section">
@@ -368,9 +109,7 @@
 </div>
 <!--GOOGLE MAP END-->
 
-
 {% include footer.html %}
-
 
 </div>
 <!--//.LGX SITE CONTAINER-->

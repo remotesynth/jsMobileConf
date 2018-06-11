@@ -295,17 +295,17 @@
             //for Default  map
             if ($('.map-canvas-default').length) {
                 $(".map-canvas-default").googleMap({
-                    zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
+                    zoom: 17, // Initial zoom level (optiona
+                    coords: [42.3434606, -71.0452393,19], // Map center (optional)
                     type: "ROADMAP", // Map type (optional),
                     mouseZoom: false
                 });
 
                 //for marker
                 $(".map-canvas-default").addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
-                    title: 'Eventpoint',
-                    text: '121 King St, Melbourne VIC 3000, Australia',
+                    coords: [42.3434606, -71.0452393,19], // GPS coords
+                    title: 'Aloft Boston Seaport',
+                    text: '401-403 D Street, Boston, MA, 02210, United States',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
                 });
             }
@@ -314,16 +314,16 @@
             if ($('.map-canvas-dark').length) {
                 $(".map-canvas-dark").googleMap({
                     zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
+                    coords: [42.3434606, -71.0452393,19], // Map center (optional)
                     type: "HYBRID", // Map type (optional),
                     mouseZoom: false
                 });
 
                 //for marker
                 $(".map-canvas-dark").addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
-                    title: 'Eventpoint',
-                    text: '121 King St, Melbourne VIC 3000, Australia',
+                    coords: [42.3434606, -71.0452393,19], // GPS coords
+                    title: 'Aloft Boston Seaport',
+                    text: '401-403 D Street, Boston, MA, 02210, United States',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
                 });
             }

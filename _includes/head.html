@@ -7,26 +7,28 @@
   <!-- SITE TITLE -->
   <title>{{site.title}}</title>
   <meta name="description" content="{{site.description}}"/>
-  <meta name="keywords" content="event,conference, confrenece template , Responsive, HTML5"/>
+  <meta name="keywords" content="{{site.keywords}}"/>
 
   <!-- twitter card starts from here, if you don't need remove this section -->
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:site" content="@yourtwitterusername"/>
-  <meta name="twitter:creator" content="@yourtwitterusername"/>
-  <meta name="twitter:url" content="http://yourdomain.com"/>
-  <meta name="twitter:title" content="Your home page title, max 140 char"/>
+  <meta name="twitter:site" content="@{{site.twitter_username}}"/>
+  <meta name="twitter:creator" content="@{{site.twitter_username}}"/>
+  <meta name="twitter:url" content="{{site.url}}"/>
+  <meta name="twitter:title" content="{{page.title}}"/>
   <!-- maximum 140 char -->
-  <meta name="twitter:description" content="Your site description, maximum 140 char "/>
+  <meta name="twitter:description" content="{{site.short_description}}"/>
   <!-- maximum 140 char -->
   <meta name="twitter:image" content="assets/img/twittercardimg/twittercard-280-150.jpg"/>
   <!-- when you post this page url in twitter , this image will be shown -->
   <!-- twitter card ends from here -->
 
   <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-  <meta property="og:title" content="Your home page title"/>
-  <meta property="og:url" content="http://your domain here.com"/>
+  {% if page.title %}
+  <meta property="og:title" content="{{page.title}}"/>
+  {% endif %}
+  <meta property="og:url" content="{{site.url}}"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Your site name here"/>
+  <meta property="og:site_name" content="{{site.title}}"/>
   <!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="assets/img/opengraph/fbphoto.jpg"/>
