@@ -18,12 +18,12 @@
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                    {% assign keynotes = site.data.speakers | where: "keynote", "true" %}
+                    {% assign keynotes = site.pages | where: "layout", "speaker" | where: "keynote", "true" | sort: "last-name" %}
                     {% for speaker in keynotes %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker">
                             <figure>
-                                <a class="profile-img" href="speakers-list.html"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"/></a>
+                                <a class="profile-img" href="/speakers/{{speaker.name | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"/></a>
                                 <figcaption>
                                     {% if speaker.twitter %}<a class="sp-tw" href="https://twitter.com/{{speaker.twitter}}"><i class="fa fa-twitter"></i></a>{% endif %}
                                     {% if speaker.github %}<a class="sp-gh" href="https://github.com/{{speaker.github}}"><i class="fa fa-github"></i></a>{% endif %}
@@ -31,19 +31,19 @@
                                 </figcaption>
                             </figure>
                             <div class="speaker-info">
-                                <h3 class="title"><a href="speaker-single.html">{{ speaker.name }}</a></h3>
-                                <h4 class="subtitle">{{ speaker.title }}</h4>
+                                <h3 class="title"><a href="/speakers/{{speaker.name | slugify }}">{{ speaker.title }}</a></h3>
+                                <h4 class="subtitle">{{ speaker.job-title }}</h4>
                             </div>
                         </div>
                     </div>
                     {% endfor %}
                     <br style="clear: both;">
-                    {% assign speakers = site.data.speakers | where_exp: "item", "item.keynote != true" %}
+                    {% assign speakers = site.pages | where: "layout", "speaker" | where_exp: "item", "item.keynote != true" | sort: "last-name" %}
                     {% for speaker in speakers %}
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="lgx-single-speaker lgx-single-speaker-sm">
                             <figure>
-                                <a class="profile-img" href="speakers-list.html"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"/></a>
+                                <a class="profile-img" href="/speakers/{{speaker.name | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"/></a>
                                 <figcaption>
                                     {% if speaker.twitter %}<a class="sp-tw" href="https://twitter.com/{{speaker.twitter}}"><i class="fa fa-twitter"></i></a>{% endif %}
                                     {% if speaker.github %}<a class="sp-gh" href="https://github.com/{{speaker.github}}"><i class="fa fa-github"></i></a>{% endif %}
@@ -51,8 +51,8 @@
                                 </figcaption>
                             </figure>
                             <div class="speaker-info">
-                                <h3 class="title"><a href="speakers-list.html">{{ speaker.name }}</a></h3>
-                                <h4 class="subtitle">{{ speaker.title }}</h4>
+                                <h3 class="title"><a href="/speakers/{{speaker.name | slugify }}">{{ speaker.title }}</a></h3>
+                                <h4 class="subtitle">{{ speaker.job-title }}</h4>
                             </div>
                         </div>
                     </div>
