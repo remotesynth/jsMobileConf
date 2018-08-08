@@ -6,7 +6,6 @@ job-title: "Vue.js Core Team Member"
 photo: "ChrisFritz.jpg"
 twitter: "chrisvfritz"
 github: "chrisvfritz"
-website: "http://beingadev.rocks/"
 ---
 
 Chris lives in Lansing, Michigan, working on open source and helping companies around the world build incredible web front-ends. He’s most well known for his work as a member of the Vue core team, writing and curating Vue’s documentation, along with other resources to make life simpler for web developers.
