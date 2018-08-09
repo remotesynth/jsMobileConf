@@ -231,7 +231,7 @@
          ========================================================================== */
         if($('#lgx-typed-string').length){
             $('#lgx-typed-string').typed({
-                strings: ["Mobile Web Development", "Mobile App Development","Internet of Things","Serverless","Artificial Intelligence"],
+                strings: ["Mobile Web Development", "Machine Learning", "Internet of Things", "Mobile App Development", "Micro Apps", "Serverless", "Blockchain", "AR/VR", "Artificial Intelligence"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts
