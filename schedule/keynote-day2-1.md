@@ -1,7 +1,7 @@
 ---
 layout: session
 title: TBD
-speaker-last-name: TBD
+speaker-last-name: Hristov
 day: 2
 keynote: true
 order: 1
