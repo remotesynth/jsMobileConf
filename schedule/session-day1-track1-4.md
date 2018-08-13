@@ -9,4 +9,3 @@ start-time: "2:20 PM"
 short-description: "TBD"
 ---
 
-## The FaaS and the Serverless
