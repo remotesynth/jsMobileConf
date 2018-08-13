@@ -1,6 +1,6 @@
 ---
 layout: session
-title: "Topic: Webpack and Debugging: Mission Possible"
+title: "Webpack and Debugging: Mission Possible"
 speaker-last-name: Vlaeva
 day: 2
 track: 2
