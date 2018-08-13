@@ -3,6 +3,7 @@ layout: speaker
 title: Simon MacDonald
 last-name: MacDonald
 job-title: "Senior Software Scientist at Adobe"
+short-job-title: "Senior Software Scientist"
 photo: "simonmacdonald.jpeg"
 twitter: "macdonst"
 github: "macdonst"

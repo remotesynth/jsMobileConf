@@ -3,6 +3,7 @@ layout: speaker
 title: Chris Fritz
 last-name: Fritz
 job-title: "Vue.js Core Team Member"
+short-job-title: "Vue.js Core Team Member"
 photo: "ChrisFritz.jpg"
 twitter: "chrisvfritz"
 github: "chrisvfritz"

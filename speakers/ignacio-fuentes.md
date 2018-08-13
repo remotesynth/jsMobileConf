@@ -3,6 +3,7 @@ layout: speaker
 title: Ignacio Fuentes
 last-name: Fuentes
 job-title: "Senior Sales Engineer at Progress"
+short-job-title: "Senior Sales Engineer"
 photo: "ignaciofuentes.jpg"
 twitter: "ignacioafuentes"
 github: "ignaciofuentes"

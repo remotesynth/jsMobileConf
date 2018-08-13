@@ -3,6 +3,7 @@ layout: speaker
 title: Ashi Krishnan
 last-name: Krishnan
 job-title: "Sr. Software Engineer at GitHub"
+short-job-title: "Sr. Software Engineer"
 photo: "ashikrishnan.jpg"
 twitter: "rakshesha"
 github: "queerviolet"

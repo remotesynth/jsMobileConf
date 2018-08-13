@@ -3,6 +3,7 @@ layout: speaker
 title: Tara Manicsic
 last-name: Manicsic
 job-title: "Developer Advocate at Progress"
+short-job-title: "Developer Advocate"
 photo: "taramanicsic.jpg"
 twitter: "tzmanics"
 github: "tzmanics"

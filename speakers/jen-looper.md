@@ -3,6 +3,7 @@ layout: speaker
 title: Jen Looper
 last-name: Looper
 job-title: "Developer Advocate at Progress"
+short-job-title: "Developer Advocate"
 photo: "jenlooper.jpeg"
 twitter: "jenlooper"
 github: "jenlooper"

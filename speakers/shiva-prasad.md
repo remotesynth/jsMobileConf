@@ -3,6 +3,7 @@ layout: speaker
 title: Shiva Prasad
 last-name: Prasad
 job-title: "Software Consultant at nStudio.io"
+short-job-title: "Software Consultant"
 photo: "shivaprasad.jpg"
 twitter: "MultiShiv19"
 github: "shiv19"

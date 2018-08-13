@@ -3,6 +3,7 @@ layout: speaker
 title: Michael Solati
 last-name: Solati
 job-title: "Front End Engineer at Sellpoints"
+short-job-title: "Front End Engineer"
 photo: "MichaelSolati.jpg"
 twitter: "MichaelSolati"
 github: "MichaelSolati"

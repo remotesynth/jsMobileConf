@@ -3,6 +3,7 @@ layout: speaker
 title: Burke Holland
 last-name: Holland
 job-title: "Senior Developer Advocate at Microsoft"
+short-job-title: "Developer Advocate"
 photo: "burkeholland.jpg"
 twitter: "burkeholland"
 github: "burkeholland"

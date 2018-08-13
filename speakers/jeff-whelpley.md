@@ -3,6 +3,7 @@ layout: speaker
 title: Jeff Whelpley
 last-name: Whelpley
 job-title: "Co-founder and CTO at Swish.com"
+short-job-title: "Co-founder and CTO"
 photo: "jeffwhelpley.jpg"
 twitter: "jeffwhelpley"
 github: "jeffwhelpley"

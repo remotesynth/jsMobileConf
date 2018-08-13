@@ -3,6 +3,7 @@ layout: speaker
 title: Sage Franch
 last-name: Franch
 job-title: "Co-Founder and CTO at Crescendo"
+short-job-title: "Co-Founder and CTO"
 photo: "sagefranch.jpg"
 twitter: "theTrendyTechie"
 github: "thetrendytechie"

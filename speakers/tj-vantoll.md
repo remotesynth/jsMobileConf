@@ -3,6 +3,7 @@ layout: speaker
 title: TJ VanToll
 last-name: VanToll
 job-title: "Developer Advocate at Progress"
+short-job-title: "Developer Advocate"
 photo: "tjvantoll.jpeg"
 twitter: "tjvantoll"
 github: "tjvantoll"

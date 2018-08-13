@@ -3,6 +3,7 @@ layout: speaker
 title: Stanimira Vlaeva
 last-name: Vlaeva
 job-title: "Software Engineer at Progress"
+short-job-title: "Software Engineer"
 photo: "stanimiravlaeva.jpg"
 twitter: "StanimiraVlaeva"
 github: "sis0k0"

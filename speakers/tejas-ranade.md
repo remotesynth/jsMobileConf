@@ -3,6 +3,7 @@ layout: speaker
 title: Tejas Ranade
 last-name: Ranade
 job-title: "Product Manager at Progress"
+short-job-title: "Product Manager"
 photo: "tejasranade.jpeg"
 twitter: "tejasrnd"
 github: "tejasranade"

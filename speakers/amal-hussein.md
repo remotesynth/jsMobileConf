@@ -3,6 +3,7 @@ layout: speaker
 title: Amal Hussein
 last-name: Hussein
 job-title: "Sr Open Web Engineer at Bocoup"
+short-job-title: "Sr Open Web Engineer"
 photo: "AmalHussein.jpg"
 twitter: "nomadtechie"
 github: "nomadtechie"

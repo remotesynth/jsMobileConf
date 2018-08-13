@@ -3,6 +3,7 @@ layout: speaker
 title: Brandon Satrom
 last-name: Satrom
 job-title: "Particle Developer Evangelist"
+short-job-title: "Developer Evangelist"
 photo: "brandonsatrom.jpg"
 twitter: "BrandonSatrom"
 github: "bsatrom"

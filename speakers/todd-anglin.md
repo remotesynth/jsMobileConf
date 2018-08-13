@@ -3,6 +3,7 @@ layout: speaker
 title: Todd Anglin
 last-name: Anglin
 job-title: "VP Product & Developer Relations at Progress"
+short-job-title: "VP Product & Developer Relations"
 photo: "ToddAnglin.jpg"
 twitter: "toddanglin"
 github: "toddanglin"

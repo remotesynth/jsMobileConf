@@ -3,6 +3,7 @@ layout: speaker
 title: Ethan Marcotte
 last-name: Marcotte
 job-title: "Independent web designer"
+short-job-title: "Independent web designer"
 photo: "ethanmarcotte.jpeg"
 twitter: "beep"
 website: "https://ethanmarcotte.com/"

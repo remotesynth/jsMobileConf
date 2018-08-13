@@ -1,8 +1,9 @@
 ---
 layout: speaker
 title: Diana Rodriguez
-last-name: Prasad
+last-name: Rodriguez
 job-title: "Full Stack Developer & DevOps"
+short-job-title: "Full Stack Developer"
 photo: "dianarodriguez.jpg"
 twitter: "cotufa82"
 website: "http://beingadev.rocks/"

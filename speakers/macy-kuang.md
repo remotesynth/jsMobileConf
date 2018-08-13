@@ -3,6 +3,7 @@ layout: speaker
 title: Macy Kuang
 last-name: Kuang
 job-title: "Game Engineer, Google Developer Expert, Intel Innovator"
+short-job-title: "Game Engineer"
 photo: "macykuang.png"
 twitter: "MacyKuang"
 website: "http://miaomiaogames.com/"
