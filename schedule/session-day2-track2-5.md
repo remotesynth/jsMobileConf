@@ -22,4 +22,4 @@ Come to this talk to learn how to tackle webpack problems effectively. We will c
 - debugging snapshot generation errors;
 - debugging webpacked applications.
 
-* Important - we won't even use StackOverflow!
+We won't even use StackOverflow!
