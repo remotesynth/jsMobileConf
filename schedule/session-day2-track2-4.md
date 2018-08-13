@@ -6,7 +6,7 @@ day: 2
 track: 2
 session: 4
 start-time: "1:30 PM"
-short-description: "TBD"
+short-description: "Leverage AST’s to Push your Legacy Code (& the Web) Forward"
 ---
 
 ## Leverage AST's to Push your Legacy Code (& the Web) Forward
