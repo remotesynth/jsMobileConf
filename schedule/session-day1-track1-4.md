@@ -1,6 +1,6 @@
 ---
 layout: session
-title: "Topic: Service Workers"
+title: "The FaaS and the Serverless"
 speaker-last-name: MacDonald
 day: 1
 track: 1
@@ -9,4 +9,4 @@ start-time: "2:20 PM"
 short-description: "TBD"
 ---
 
-TBD
+## The FaaS and the Serverless
