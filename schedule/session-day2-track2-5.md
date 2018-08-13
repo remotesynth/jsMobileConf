@@ -9,6 +9,8 @@ start-time: "3:30 PM"
 short-description: "Learn how to tackle webpack problems effectively with the right debugging tools."
 ---
 
+## Webpack and Debugging: Mission Possible
+
 Webpack is cool! It improves your app performance so much that it's virtually impossible not to use it.
 
 But great tools come with great responsibilities...and sometimes cause great problems. But hold on - we're developers and we love challenges! We can resolve every problem if we have the guts to dig into it and the right debugging tools.
