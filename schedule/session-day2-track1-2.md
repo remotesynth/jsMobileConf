@@ -1,7 +1,7 @@
 ---
 layout: session
-title: "TBD"
-speaker-last-name: TBD
+title: "Topic: Micro Apps"
+speaker-last-name: Reddy
 day: 2
 track: 1
 session: 2
