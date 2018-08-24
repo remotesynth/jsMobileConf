@@ -1,7 +1,7 @@
 ---
 layout: session
-title: TBD
-speaker-last-name: Hristov
+title: "Topic: Open Source and Standards in JavaScript"
+speaker-last-name: Burson
 day: 2
 keynote: true
 order: 1
