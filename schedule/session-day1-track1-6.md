@@ -1,16 +1,12 @@
 ---
 layout: session
-title: "One Project. One Language. Three Apps."
-speaker-last-name: VanToll
+title: "Lean Native"
+speaker-last-name: Whelpley
 day: 1
 track: 1
 session: 6
 start-time: "4:20 PM"
-short-description: "Learn how to use frameworks like NativeScript and React Native to build web apps, native iOS apps, and native Android apps - simultaneously."
+short-description: "Build your mobile-first business the 'right' way"
 ---
 
-It’s 2018 and we’ve achieved the dream: robots that make phone calls for us. Oh, and we can also use JavaScript to build apps for basically any platform. That’s probably the more relevant dream.
-
-And because JavaScript can be used to create apps on virtually any platform, developers have created a variety of projects that let you, wait for it, build for multiple platforms—AT THE SAME TIME. I know, right?
-
-In this talk we’ll focus on NativeScript and React Native, both of which have the ability to build web apps, native iOS apps, and native Android apps, simultaneously. You’ll see some amazing demos of these projects in action, and then learn when using these projects is a good idea, and also when using them is a not-good idea. Come learn about using JavaScript for apps and stuff!
+Building a new product can be extremely challenging, but a strong focus on user feedback and quick iteration cycles with Lean methodologies can help tip the odds in your favor. In this talk, Jeff will explain how and when native mobile should fit into a process that emphasizes rapid iteration cycles and doing the absolute minimum amount of work to achieve the desired results. Stop investing months or even years of your life building your native app before you first launch anything to the public. There is a better way! Jeff will take you step-by-step through a process that will help you start getting feedback from your users within weeks and will greatly increase your ultimate chances of success.

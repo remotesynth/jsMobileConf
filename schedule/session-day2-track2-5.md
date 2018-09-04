@@ -1,23 +1,12 @@
 ---
 layout: session
-title: "Webpack and Debugging: Mission Possible"
-speaker-last-name: Vlaeva
+title: "Machine Learning Capabilities for Mobile Apps"
+speaker-last-name: Fuentes
 day: 2
 track: 2
 session: 5
 start-time: "3:30 PM"
-short-description: "Learn how to tackle webpack problems effectively with the right debugging tools."
+short-description: "How do you go about making your UX smarter and more compelling?"
 ---
 
-Webpack is cool! It improves your app performance so much that it's virtually impossible not to use it.
-
-But great tools come with great responsibilities...and sometimes cause great problems. But hold on - we're developers and we love challenges! We can resolve every problem if we have the guts to dig into it and the right debugging tools.
-
-Come to this talk to learn how to tackle webpack problems effectively. We will cover the basics of:
-
-- debugging webpack builds;
-- debugging ahead-of-time compilation errors;
-- debugging snapshot generation errors;
-- debugging webpacked applications.
-
-We won't even use StackOverflow!
+Now that you are done creating beautiful mobile apps with JavaScript: How do you go about making your UX smarter and more compelling? In this talk we will cover a few strategies and cloud services that regular JS developers can leverage to easily add Machine Learning functionality to their apps.

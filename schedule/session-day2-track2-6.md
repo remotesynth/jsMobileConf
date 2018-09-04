@@ -1,12 +1,12 @@
 ---
 layout: session
-title: "Panel"
+title: "Panel Discussion: The Future of Mobile"
 speaker-last-name: TBD
 day: 2
 track: 2
 session: 6
 start-time: "4:20 PM"
-short-description: "TBD"
+short-description: "Cap off jsMobileConf with a panel discussion on the future of mobility."
 ---
 
-TBD
+A panel discussion of where mobile is headed, including conversations on virtual/augmented reality, AI, machine learning, IoT, and more.

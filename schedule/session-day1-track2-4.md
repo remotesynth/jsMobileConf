@@ -1,14 +1,12 @@
 ---
 layout: session
-title: "Everything You Need To Node"
-speaker-last-name: Manicsic
+title: "Debunking Myths: Imposter Syndrome"
+speaker-last-name: Rodriguez
 day: 1
 track: 2
 session: 4
 start-time: "2:20 PM"
-short-description: "Discover the many different ways you can put Node to use in your projects."
+short-description: "How to recognize and deal with imposter syndrome as a developer."
 ---
 
-Do you know Node? You've probably heard of or even used Node but do you know all the things you can do with Node? You may have heard Node described as JavaScript for the back-end. Although you can create back-end applications it's not exclusively used to develop back-end apps. Since Node is a JavaScript runtime it allows you to execute JavaScript in a computing environment rather than a browser environment. Oh the possibilities!
-
-In this session we'll walk through a number of different types of projects you can build using Node. Hopefully unveiling some things you didn't even know you could Node. Finally, we'll code a Node application of our own, step-by-step. Looking forward to coding with you!
+We have all been there. At some point of our career we have stared blankly at our screens and thought that maybe this wasn't our place. Maybe some of us have felt like we didn't even deserve to be where we are. Let's talk about it, learn to recognize if you're battling imposter syndrome and how to deal with it without burning to ashes.

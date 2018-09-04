@@ -1,13 +1,23 @@
 ---
 layout: session
-title: "Design for the Mixed Reality World"
-speaker-last-name: Kuang
+title: "Webpack and Debugging: Mission Possible"
+speaker-last-name: Vlaeva
 day: 1
 track: 1
 session: 3
 start-time: "1:30 PM"
-short-description: "How UI and UX have changed on these new platforms over years and where the whole industry is headed."
+short-description: "Learn how to tackle webpack problems effectively with the right debugging tools."
 ---
 
-We are used to create 2D and 3D looking flat applications with simple interaction. Since the boom of the Virtual Reality in 2012 and many other similar technologies,  there is a demand to to create products that integrate with our reality. Macy will be covering her development experiences with VR titles for commercial products such as Sylvania, insidious 3, Unyte interactive meditation and the current Mix Reality project - circuit simulation. 
-This includes how UI and UX have changed on these new platforms over years and a discussion where the whole industry is headed.
+Webpack is cool! It improves your app performance so much that it's virtually impossible not to use it.
+
+But great tools come with great responsibilities...and sometimes cause great problems. But hold on - we're developers and we love challenges! We can resolve every problem if we have the guts to dig into it and the right debugging tools.
+
+Come to this talk to learn how to tackle webpack problems effectively. We will cover the basics of:
+
+- debugging webpack builds;
+- debugging ahead-of-time compilation errors;
+- debugging snapshot generation errors;
+- debugging webpacked applications.
+
+We won't even use StackOverflow!
