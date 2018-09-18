@@ -2,3 +2,7 @@
   photo: "nstudio-logo.png"
   sponsor_level: 1
   url: "https://nstudio.io"
+- name: "ten24"
+  photo: "ten24-logo.jpg"
+  sponsor_level: 2
+  url: "https://www.ten24web.com/"
