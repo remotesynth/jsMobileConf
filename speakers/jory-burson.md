@@ -2,8 +2,8 @@
 layout: speaker
 title: Jory Burson
 last-name: Burson
-job-title: "COO at Bocoup"
-short-job-title: "COO at Bocoup"
+job-title: "Standards Liaison at Bocoup"
+short-job-title: "Standards Liaison at Bocoup"
 photo: "JoryBurson.jpeg"
 twitter: "jorydotcom"
 github: "jorydotcom"
