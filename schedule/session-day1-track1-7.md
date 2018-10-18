@@ -1,7 +1,7 @@
 ---
 layout: session
 title: "Cocktail Hour!"
-speaker-last-name: 
+speaker-last-name: N/A
 day: 1
 track: 1
 session: 7
