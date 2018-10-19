@@ -10,3 +10,7 @@
   photo: "moltin-logo.png"
   sponsor_level: 2
   url: "https://moltin.com/"
+- name: "thread"
+  photo: "thread-logo.png"
+  sponsor_level: 2
+  url: "https://www.threadlearning.com/"
