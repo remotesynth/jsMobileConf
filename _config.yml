@@ -18,21 +18,20 @@ email: brian.rinaldi@progress.com
 description: >- # this means to ignore newlines until "baseurl:"
   jsMobileConf is a community-focused event sponsored by Progress Software to discuss
   all things related to JavaScript and mobility including topics like mobile web development,
-  mobile development, the Internet of Things, serverless and artificial intelligence.
+  mobile app development, PWA, the Internet of Things, serverless, and artificial intelligence.
 short_description: >-
-  jsMobileConf is an event focused on JavaScript and mobility including topics like mobile web dev, mobile app dev, IoT, serverless and AI.
-keywords: event,conference,javascript,js,mobile web development,mobile app development,mobile web dev,mobile app dev,serverless,IoT,internet of things,artificial intelligence,AI,virtual reality,VR,boston
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jsmobileconf.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: telerik
-github_username:  telerik
+  jsMobileConf is an event focused on JavaScript and mobility including topics like mobile web dev, mobile app dev, PWA, IoT, serverless and AI.
+keywords: event,conference,javascript,js,mobile web development,mobile app development,mobile web dev,mobile app dev,serverless,IoT,internet of things,artificial intelligence,AI,virtual reality,VR,boston,pwa
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://jsmobileconf.com' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: progresssw
+github_username: progress
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
