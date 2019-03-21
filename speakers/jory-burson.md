@@ -2,7 +2,7 @@
 layout: speaker
 title: Jory Burson
 last-name: Burson
-job-title: 'Standards Liaison at Bocoup'
+jobtitle: 'Standards Liaison at Bocoup'
 short-job-title: 'Standards Liaison at Bocoup'
 photo: 'JoryBurson.jpeg'
 twitter: 'jorydotcom'

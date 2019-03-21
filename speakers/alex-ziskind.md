@@ -2,7 +2,7 @@
 layout: speaker
 title: Alex Ziskind
 last-name: Ziskind
-job-title: 'Founder of NativeScripting.com'
+jobtitle: 'Founder of NativeScripting.com'
 short-job-title: 'Founder of NativeScripting.com'
 photo: 'alex-ziskind.jpg'
 twitter: 'digitalix'

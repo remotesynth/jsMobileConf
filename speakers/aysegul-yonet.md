@@ -2,7 +2,7 @@
 layout: speaker
 title: Aysegul Yonet
 last-name: Yonet
-job-title: 'Senior Azure Cloud Developer Advocate at Microsoft'
+jobtitle: 'Senior Azure Cloud Developer Advocate at Microsoft'
 short-job-title: 'Developer Advocate at Microsoft'
 photo: 'aysegul-yonet.jpg'
 twitter: 'AysSomething'

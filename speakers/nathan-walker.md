@@ -2,7 +2,7 @@
 layout: speaker
 title: Nathan Walker
 last-name: Walker
-job-title: 'NativeScript Developer Expert'
+jobtitle: 'NativeScript Developer Expert'
 short-job-title: 'NativeScript Developer Expert'
 photo: 'nathan-walker.jpg'
 twitter: 'wwwalkerrun'

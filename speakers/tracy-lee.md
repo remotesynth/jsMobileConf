@@ -2,7 +2,7 @@
 layout: speaker
 title: Tracy Lee
 last-name: Lee
-job-title: 'Co-Founder of This Dot Labs'
+jobtitle: 'Co-Founder of This Dot Labs'
 short-job-title: 'Co-Founder of This Dot Labs'
 photo: 'tracy-lee.jpg'
 twitter: 'ladyleet'

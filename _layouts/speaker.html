@@ -65,7 +65,7 @@
                                 <div class="col-sm-7 col-xs-12">
                                     <div class="speakers-content">
                                         <h1 class="title">{{ page.title }}</h1>
-                                        <h3 class="subtitle">{{ page.job - title }}</h3>
+                                        <h3 class="subtitle">{{ page.jobtitle }}</h3>
                                         <div class="social">
                                             <ul class="list-inline">
                                                 {% if page.twitter %}
@@ -88,7 +88,7 @@
                                         {% assign sessions = site.pages | where: "layout", "session" | where: "speaker-last-name", page.last-name %} {% for
                                         session in sessions %}
 
-                                        <h3 class="talk-title">
+                                        <h3 class="talk-title" style="display:none">
                                             <a href="{{ session.url }}">{{ session.type }}: {{ session.title }}</a>
                                         </h3>
 

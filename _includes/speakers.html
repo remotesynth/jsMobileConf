@@ -22,35 +22,9 @@
                     <div class="col-xs-12 col-sm-6 col-md-4" style="display:none">
                         <div class="lgx-single-speaker">
                             <figure>
-                                <a class="profile-img" href="/speakers/{{ speaker.title | slugify }}"
-                                    ><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"
-                                /></a>
-                                <figcaption>
-                                    {% if speaker.twitter %}<a class="sp-tw" href="https://twitter.com/{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a
-                                    >{% endif %} {% if speaker.github %}<a class="sp-gh" href="https://github.com/{{ speaker.github }}"
-                                        ><i class="fa fa-github"></i></a
-                                    >{% endif %} {% if speaker.website %}<a class="sp-link" href="{{ speaker.website }}"><i class="fa fa-link"></i></a>{% endif
-                                    %}
-                                </figcaption>
-                            </figure>
-                            <div class="speaker-info">
-                                <h3 class="title">
-                                    <a href="/speakers/{{ speaker.title | slugify }}">{{ speaker.title }}</a>
-                                </h3>
-                                <h4 class="subtitle">{{ speaker.job - title }}</h4>
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                    <br style="clear: both;" style="display:none" />
-                    {% assign speakers = site.pages | where: "layout", "speaker" | where_exp: "item", "item.keynote != true" | sort: "last-name" %} {% for
-                    speaker in speakers %}
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="lgx-single-speaker lgx-single-speaker-sm">
-                            <figure>
-                                <a class="profile-img" href="/speakers/{{ speaker.title | slugify }}"
-                                    ><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"
-                                /></a>
+                                <a class="profile-img" href="/speakers/{{ speaker.title | slugify }}"></a>
+                                    <img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker" />
+                                </a>
                                 <figcaption>
                                     {% if speaker.twitter %}
                                     <a class="sp-tw" href="https://twitter.com/{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
@@ -65,7 +39,35 @@
                                 <h3 class="title">
                                     <a href="/speakers/{{ speaker.title | slugify }}">{{ speaker.title }}</a>
                                 </h3>
-                                <h4 class="subtitle">{{ speaker.job - title }}</h4>
+                                <h4 class="subtitle">{{ speaker.jobtitle }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <br style="clear: both;" style="display:none" />
+                    {% assign speakers = site.pages | where: "layout", "speaker" | where_exp: "item", "item.keynote != true" | sort: "last-name" %} {% for
+                    speaker in speakers %}
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="lgx-single-speaker lgx-single-speaker-sm">
+                            <figure>
+                                <a class="profile-img" href="/speakers/{{ speaker.title | slugify }}">
+                                    <img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker" />
+                                </a>
+                                <figcaption>
+                                    {% if speaker.twitter %}
+                                    <a class="sp-tw" href="https://twitter.com/{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+                                    {% endif %} {% if speaker.github %}
+                                    <a class="sp-gh" href="https://github.com/{{ speaker.github }}"><i class="fa fa-github"></i></a>
+                                    {% endif %} {% if speaker.website %}
+                                    <a class="sp-link" href="{{ speaker.website }}"><i class="fa fa-link"></i></a>
+                                    {% endif %}
+                                </figcaption>
+                            </figure>
+                            <div class="speaker-info">
+                                <h3 class="title">
+                                    <a href="/speakers/{{ speaker.title | slugify }}">{{ speaker.title }}</a>
+                                </h3>
+                                <h4 class="subtitle">{{ speaker.jobtitle }}</h4>
                             </div>
                         </div>
                     </div>

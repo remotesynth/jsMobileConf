@@ -2,7 +2,7 @@
 layout: speaker
 title: Sebastian Witalec
 last-name: Witalec
-job-title: 'Senior Developer Advocate at Progress'
+jobtitle: 'Senior Developer Advocate at Progress'
 short-job-title: 'Developer Advocate'
 photo: 'sebastianwitalec.jpg'
 twitter: 'sebawita'

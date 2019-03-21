@@ -2,7 +2,7 @@
 layout: speaker
 title: Raymond Camden
 last-name: Camden
-job-title: 'Developer Experience Engineer'
+jobtitle: 'Developer Experience Engineer'
 short-job-title: 'DX Engineer'
 photo: 'raymond-camden.jpg'
 twitter: 'raymondcamden'
