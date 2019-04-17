@@ -1057,7 +1057,7 @@ button {
 .lgx-banner .lgx-inner {
 	position: static;
 	height: auto;
-	padding: 35rem 0 30.5rem;
+	padding: 35rem 0 0; /* padding: 35rem 0 30.5rem; */
 	background: rgba(46, 40, 65, 0.9);
 }
 
