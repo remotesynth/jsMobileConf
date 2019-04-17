@@ -1,5 +1,5 @@
 ---
-layout: keynote
+layout: speaker
 title: Max Firtman
 last-name: Firtman
 jobtitle: 'Freelance Developer, Author, and Trainer'
