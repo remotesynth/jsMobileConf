@@ -7,6 +7,7 @@ short-job-title: 'Developer Advocate at Netlify'
 photo: 'divya-sasidharan.jpg'
 twitter: 'shortdiv'
 github: 'shortdiv'
+website: 'http://shortdiv.com/'
 ---
 
 Coming soon!
