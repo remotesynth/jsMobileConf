@@ -9,4 +9,6 @@ twitter: "StanimiraVlaeva"
 github: "sis0k0"
 ---
 
-Stanimira is a software engineer on the NativeScript core team focused on the the integration with Angular and performance optimizations. Lately, she's been working on providing an official way for sharing code between web and mobile Angular via NativeScript schematics and webpack.
+Stanimira is a developer advocate on the NativeScript team at Progress, Google Developer Expert for Angular and Web Technologies, and co-organizer of the Angular Sofia meetup.
+
+For the past three years she has been working on the integration between NativeScript and Angular, NativeScript schematics, the web and mobile code-sharing story, hot module replacement and the webpack performance optimization tricks (hacks).
