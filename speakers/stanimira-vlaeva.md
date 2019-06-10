@@ -2,8 +2,8 @@
 layout: speaker
 title: Stanimira Vlaeva
 last-name: Vlaeva
-jobtitle: "Software Engineer at Progress"
-short-job-title: "Software Engineer"
+jobtitle: "Developer Advocate at Progress"
+short-job-title: "Developer Advocate"
 photo: "stanimiravlaeva.jpg"
 twitter: "StanimiraVlaeva"
 github: "sis0k0"
