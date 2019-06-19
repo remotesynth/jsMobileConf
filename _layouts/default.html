@@ -62,7 +62,7 @@
 
             <!--GOOGLE/MAPBOX MAP-->
 			<div class="innerpage-section">
-                <div class="lgxmapcanvas map-canvas-default" id="map_canvas"></div>
+                <div class="lgxmapcanvas map-canvas-default" id="map"></div>
             </div>
             <!--GOOGLE/MAPBOX MAP END-->
 
@@ -93,10 +93,10 @@
 		<script>
 		mapboxgl.accessToken = 'pk.eyJ1Ijoicm9ibGF1ZXIiLCJhIjoiY2p4M2QzajZ2MDBjaDQ5cWs2a2MwZnc1dSJ9.2PEydE5jSlxl_cqIfLWrYQ';
 		var map = new mapboxgl.Map({
-			container: 'map_canvas',
+			container: 'map',
 			style: 'mapbox://styles/mapbox/streets-v11',
-			center: [42.3514443, -71.0426722],
-			zoom: 9
+			zoom: 13,
+			center: [4.899, 52.372]
 		});
 		</script>
 
