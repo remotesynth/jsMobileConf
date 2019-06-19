@@ -60,13 +60,11 @@
 
             {% include speakers.html %} {% include schedule.html %} {% include sponsors.html %} {% include travel.html %} {% include register.html %}
 
-            <!--GOOGLE MAP-->
-            <!--
+            <!--GOOGLE/MAPBOX MAP-->
 			<div class="innerpage-section">
                 <div class="lgxmapcanvas map-canvas-default" id="map_canvas"></div>
             </div>
-			-->
-            <!--GOOGLE MAP END-->
+            <!--GOOGLE/MAPBOX MAP END-->
 
             {% include footer.html %}
         </div>
@@ -87,7 +85,20 @@
         <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="></script> -->
 
         <!-- CUSTOM GOOGLE MAP -->
-        <script type="text/javascript" src="assets/libs/gmap/jquery.googlemap.js"></script>
+        <!--<script type="text/javascript" src="assets/libs/gmap/jquery.googlemap.js"></script>-->
+		
+		<!-- MAPBOX -->
+		<script src='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+		<script>
+		mapboxgl.accessToken = 'pk.eyJ1Ijoicm9ibGF1ZXIiLCJhIjoiY2p4M2QzajZ2MDBjaDQ5cWs2a2MwZnc1dSJ9.2PEydE5jSlxl_cqIfLWrYQ';
+		var map = new mapboxgl.Map({
+			container: 'map_canvas',
+			style: 'mapbox://styles/mapbox/streets-v11',
+			center: [42.3514443, -71.0426722],
+			zoom: 9
+		});
+		</script>
 
         <!-- adding magnific popup js library -->
         <script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
