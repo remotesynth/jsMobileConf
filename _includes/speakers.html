@@ -46,7 +46,7 @@
 					</div>
 					{% endfor %}
                     <br style="clear: both;" />
-                    {% assign speakers = site.pages | where: "layout", "speaker" | where_exp: "item", "item.keynote != true" | where_exp: "item", "item.last-name != NA" | sort: "last-name" %} {% for
+                    {% assign speakers = site.pages | where: "layout", "speaker" | where_exp: "item", "item.keynote != true" | where_exp: "item", "item.last-name != 'NA'" | sort: "last-name" %} {% for
                     speaker in speakers %}
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="lgx-single-speaker lgx-single-speaker-sm">
