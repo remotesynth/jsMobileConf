@@ -11,15 +11,16 @@
                                 <span class="heading">Speakers</span>
                             </h2>
                             <p class="text">
-                                We've lined up some amazing speakers with more coming soon!
+                                We've lined up some amazing speakers from the JavaScript community!
                             </p>
                         </div>
                     </div>
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                    {% assign keynotes = site.pages | where: "layout", "speaker" | where: "keynote", "true" | sort: "last-name" %} {% for speaker in keynotes %}
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+					{% assign keynotes = site.pages | where: "layout", "speaker" | where: "keynote", "true" | sort: "last-name" %}
+					{% for speaker in keynotes %}
+					<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
                         <div class="lgx-single-speaker">
                             <figure>
                                 <a class="profile-img" href="/speakers/{{ speaker.title | slugify }}"></a>
@@ -42,8 +43,8 @@
                                 <h4 class="subtitle">{{ speaker.jobtitle }}</h4>
                             </div>
                         </div>
-                    </div>
-                    {% endfor %}
+					</div>
+					{% endfor %}
                     <br style="clear: both;" />
                     {% assign speakers = site.pages | where: "layout", "speaker" | where_exp: "item", "item.keynote != true" | sort: "last-name" %} {% for
                     speaker in speakers %}

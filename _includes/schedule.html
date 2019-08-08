@@ -11,27 +11,26 @@
                                 <span class="heading">Schedule</span>
                             </h2>
                             <p class="text">
-								<!--Two days. Two tracks. Tons of great speakers. All JavaScript.-->
-								Two days. Two tracks. Full schedule coming soon!
+								Two days. Two tracks. Tons of great speakers. All JavaScript.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="lgx-tab" style="display:none">
+                        <div class="lgx-tab">
                             <ul class="nav nav-pills text-center">
-                                <li class="active"><a data-toggle="pill" href="#home"><h3>Day <span>1</span> Track <span>1</span></h3> <p><span>25 </span>October, 2018</p></a></li>
-                                <li><a data-toggle="pill" href="#menu1"><h3>Day <span>1</span> Track <span>2</span></h3> <p><span>25 </span>October, 2018</p></a></li>
-                                <li><a data-toggle="pill" href="#menu2"><h3>Day <span>2</span> Track <span>1</span></h3> <p><span>26 </span>October, 2018</p></a></li>
-                                <li><a data-toggle="pill" href="#menu3"><h3>Day <span>2</span> Track <span>2</span></h3> <p><span>26 </span>October, 2018</p></a></li>
+                                <li class="active"><a data-toggle="pill" href="#home"><h3>Day <span>1</span> Track <span>1</span></h3> <p><span>12 </span>November, 2019</p></a></li>
+                                <li><a data-toggle="pill" href="#menu1"><h3>Day <span>1</span> Track <span>2</span></h3> <p><span>12 </span>November, 2019</p></a></li>
+                                <li><a data-toggle="pill" href="#menu2"><h3>Day <span>2</span> Track <span>1</span></h3> <p><span>13 </span>November, 2019</p></a></li>
+                                <li><a data-toggle="pill" href="#menu3"><h3>Day <span>2</span> Track <span>2</span></h3> <p><span>13 </span>November, 2019</p></a></li>
                             </ul>
 
                             <!-- track 1 -->
                             <div class="tab-content lgx-tab-content text-center">
                                 <!-- keynote -->
                                 <div id="home" class="tab-pane fade in active">
-                                    {% assign keynotesDay1 = site.pages | where: "layout", "session" | where: "day", "1" | where: "keynote", true | sort: "order" %}
+                                    {% assign keynotesDay1 = site.pages | where: "layout", "session" | where: "day", "1" | where: "keynote", true | sort: "start" %}
                                     {% for keynotes in keynotesDay1 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
@@ -39,7 +38,7 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = keynotes.start-time | split: ' ' %}
+                                                    {% assign time = keynotes.starttime | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -48,7 +47,7 @@
                                                     <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
                                                     <div class="author-info">
                                                         <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -64,7 +63,7 @@
                                     {% endfor %}
 
                                     <!-- session -->
-                                    {% assign day1track1 = site.pages | where: "layout", "session" | where: "day", "1" | where: "track", "1" | sort: "session" %}
+                                    {% assign day1track1 = site.pages | where: "layout", "session" | where: "day", "1" | where: "keynote", false | where: "track", "1" | sort: "start" %}
                                     {% for sessions in day1track1 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", sessions.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
@@ -72,7 +71,7 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = sessions.start-time | split: ' ' %}
+                                                    {% assign time = sessions.starttime | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -81,7 +80,7 @@
                                                     <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
                                                     <div class="author-info">
                                                         <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -100,7 +99,7 @@
                                 <!-- track 2 -->
                                 <div id="menu1" class="tab-pane fade">
                                     <!-- keynote -->
-                                    {% assign keynotesDay1 = site.pages | where: "layout", "session" | where: "day", "1" | where: "keynote", true | sort: "order" %}
+                                    {% assign keynotesDay1 = site.pages | where: "layout", "session" | where: "day", "1" | where: "keynote", true | sort: "start" %}
                                     {% for keynotes in keynotesDay1 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
@@ -108,7 +107,7 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = keynotes.start-time | split: ' ' %}
+                                                    {% assign time = keynotes.starttime | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -117,7 +116,7 @@
                                                     <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
                                                     <div class="author-info">
                                                         <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -133,7 +132,7 @@
                                     {% endfor %}
 
                                     <!-- session -->
-                                    {% assign day1track2 = site.pages | where: "layout", "session" | where: "day", "1" | where: "track", "2" | sort: "session" %}
+                                    {% assign day1track2 = site.pages | where: "layout", "session" | where: "day", "1" | where: "keynote", false | where: "track", "2" | sort: "start" %}
                                     {% for sessions in day1track2 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", sessions.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
@@ -141,7 +140,7 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = sessions.start-time | split: ' ' %}
+                                                    {% assign time = sessions.starttime | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -150,7 +149,7 @@
                                                     <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
                                                     <div class="author-info">
                                                         <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -168,41 +167,8 @@
 
                                 <!-- day 2 -->
                                 <div id="menu2" class="tab-pane fade">
-                                    <!-- keynote -->
-                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | sort: "order" %}
-                                    {% for keynotes in keynotesDay2 %}
-                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
-                                        {% assign speaker = speakers | first %}
-                                    <div class="lgx-single-tab">
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-2">
-                                                <div class="time-area">
-                                                    {% assign time = keynotes.start-time | split: ' ' %}
-                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-3">
-                                                <div class="author">
-                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
-                                                    <div class="author-info">
-                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-7">
-                                                <div class="schedule-info">
-                                                    <h3 class="title"><a href="{{ keynotes.url }}">Keynote: {{keynotes.title}}</a></h3>
-                                                    <p>{{keynotes.short-description}}</p>
-                                                </div>
-                                                <!--//.single tab-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {% endfor %}
-
                                     <!-- session -->
-                                    {% assign day2track1 = site.pages | where: "layout", "session" | where: "day", "2" | where: "track", "1" | sort: "session" %}
+                                    {% assign day2track1 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", false | where: "track", "1" | sort: "start" %}
                                     {% for sessions in day2track1 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", sessions.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
@@ -210,7 +176,7 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = sessions.start-time | split: ' ' %}
+                                                    {% assign time = sessions.starttime | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -219,7 +185,7 @@
                                                     <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
                                                     <div class="author-info">
                                                         <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -227,6 +193,39 @@
                                                 <div class="schedule-info">
                                                     <h3 class="title"><a href="{{ sessions.url }}">{{sessions.title}}</a></h3>
                                                     <p>{{sessions.short-description}}</p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+									{% endfor %}
+									
+                                    <!-- keynote -->
+                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | sort: "start" %}
+                                    {% for keynotes in keynotesDay2 %}
+                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
+                                        {% assign speaker = speakers | first %}
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-2">
+                                                <div class="time-area">
+                                                    {% assign time = keynotes.starttime | split: ' ' %}
+                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3">
+                                                <div class="author">
+                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
+                                                    <div class="author-info">
+                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h3 class="title"><a href="{{ keynotes.url }}">Keynote: {{keynotes.title}}</a></h3>
+                                                    <p>{{keynotes.short-description}}</p>
                                                 </div>
                                                 <!--//.single tab-->
                                             </div>
@@ -236,16 +235,16 @@
                                 </div>
                                 <!-- track 2 -->
                                 <div id="menu3" class="tab-pane fade">
-                                    <!-- keynote -->
-                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | sort: "order" %}
-                                    {% for keynotes in keynotesDay2 %}
-                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
+                                    <!-- session -->
+                                    {% assign day2track2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", false | where: "track", "2" | sort: "start" %}
+                                    {% for sessions in day2track2 %}
+                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", sessions.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
                                     <div class="lgx-single-tab">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = keynotes.start-time | split: ' ' %}
+                                                    {% assign time = sessions.starttime | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -254,7 +253,40 @@
                                                     <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
                                                     <div class="author-info">
                                                         <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h3 class="title"><a href="{{ sessions.url }}">{{sessions.title}}</a></h3>
+                                                    <p>{{sessions.short-description}}</p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+									{% endfor %}
+									
+                                    <!-- keynote -->
+                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | sort: "start" %}
+                                    {% for keynotes in keynotesDay2 %}
+                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
+                                        {% assign speaker = speakers | first %}
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-2">
+                                                <div class="time-area">
+                                                    {% assign time = keynotes.starttime | split: ' ' %}
+                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3">
+                                                <div class="author">
+                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
+                                                    <div class="author-info">
+                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -269,38 +301,6 @@
                                     </div>
                                     {% endfor %}
 
-                                    <!-- session -->
-                                    {% assign day2track2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "track", "2" | sort: "session" %}
-                                    {% for sessions in day2track2 %}
-                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", sessions.speaker-last-name %}
-                                        {% assign speaker = speakers | first %}
-                                    <div class="lgx-single-tab">
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-2">
-                                                <div class="time-area">
-                                                    {% assign time = sessions.start-time | split: ' ' %}
-                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-3">
-                                                <div class="author">
-                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
-                                                    <div class="author-info">
-                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
-                                                        <p class="author-title">{{speaker.short-job-title}}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-7">
-                                                <div class="schedule-info">
-                                                    <h3 class="title"><a href="{{ sessions.url }}">{{sessions.title}}</a></h3>
-                                                    <p>{{sessions.short-description}}</p>
-                                                </div>
-                                                <!--//.single tab-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {% endfor %}
                                 </div>
                             </div>
                         </div>

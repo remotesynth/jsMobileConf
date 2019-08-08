@@ -68,7 +68,7 @@
                     <figure>
                       <a
                         class="profile-img"
-                        href="/speakers/{{ speaker.title | slugify }}"
+                        href="/speakers/{{ speaker.title | slugify }}.html"
                         ><img
                           src="/assets/img/speakers/{{ speaker.photo }}"
                           alt="speaker"
@@ -91,11 +91,12 @@
                     </figure>
                     <div class="speaker-info">
                       <h3 class="title">
-                        <a href="/speakers/{{ speaker.title | slugify }}">{{
-                          speaker.title
-                        }}</a>
+                        <a
+                          href="/speakers/{{ speaker.title | slugify }}.html"
+                          >{{ speaker.title }}</a
+                        >
                       </h3>
-                      <h4 class="subtitle">{{ speaker.job - title }}</h4>
+                      <h4 class="subtitle">{{ speaker.jobtitle }}</h4>
                     </div>
                   </div>
                 </div>
@@ -105,7 +106,7 @@
                     <h3 class="subtitle">
                       {% if page.day == 1 %}Tuesday, November 12{% else
                       %}Wednesday, November 13{% endif %} at
-                      {{ page.start - time }}
+                      {{ page.starttime }}
                     </h3>
                     {{ content }}
                   </div>

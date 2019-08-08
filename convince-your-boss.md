@@ -12,7 +12,7 @@ jsMobileConf is designed to showcase a forward-thinking set of speakers and sess
 
 ## Help Your Company Win with JavaScript
 
-At jsMobileConf, you'll learn from some of the brightest minds across industries, including speakers from Microsoft, Google, Adobe, and Progress. You'll enjoy inspirational keynotes from folks like [Ethan Marcotte](https://twitter.com/beep), who coined the term "Responsive Design", and have a chance to network with like-minded developers.
+At jsMobileConf, you'll learn from some of the brightest minds across industries, including speakers from Microsoft, Netlify, Adobe, and Progress. You'll enjoy inspirational keynotes from folks like [Max Firtman](https://twitter.com/firt), an industry leader in mobility.
 
 In addition to some powerful information and great new relationships, you’ll leave jsMobileConf with actionable tools to help you take your JavaScript game to the next level.
 
@@ -24,8 +24,8 @@ Each talk will offer tips, tricks, and tools for building, creating, and support
 
 ## Learn from Your Peers
 
-Keynotes and sessions aside, jsMobileConf also provides an awesome opportunity to network with like-minded developers. With an intimate setting at the [Aloft Boston Seaport District](https://www.marriott.com/hotels/travel/bosal-aloft-boston-seaport-district/), you'll have ample opportunity to discuss your experiences (and struggles) with attendees and speakers. Not to mention a great social experience the first night of the conference!
+Keynotes and sessions aside, jsMobileConf also provides an awesome opportunity to network with like-minded developers. With an intimate setting at the [Seaport Hotel & World Trade Center](https://www.seaportboston.com/), you'll have ample opportunity to discuss your experiences (and struggles) with attendees and speakers. Not to mention a great social experience the first night of the conference!
 
 We're certain that your time at jsMobileConf will be well-spent and just the beginning of your vNext journey with JavaScript! We can't wait to share it with you.
 
-*jsMobileConf is proudly run by [Progress](https://www.progress.com/) (PRGS), a leading Boston-area software company for more than 30 years. Progress offers the best platform for building and deploying the business applications of tomorrow, today.*
+_jsMobileConf is proudly run by [Progress](https://www.progress.com/) (PRGS), a leading Boston-area software company for more than 30 years. Progress offers the best platform for building and deploying the business applications of tomorrow, today._
