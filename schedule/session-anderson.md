@@ -5,9 +5,9 @@ day: 1
 track: 2
 start: '1515'
 starttime: '3:15 PM'
-title: 'React Native vs Flutter vs NativeScript'
+title: 'Tale of Two Titans: Flutter and NativeScript'
 speaker-last-name: Anderson
-short-description: ''
+short-description: 'Discussion of the strengths and weaknesses of Flutter and NativeScript and how they approach the things differently to allow you to solve different problems with the right tool.'
 ---
 
-Session details coming soon!
+Discussion of the strengths and weaknesses of Flutter and NativeScript and how they approach the things differently to allow you to solve different problems with the right tool.
