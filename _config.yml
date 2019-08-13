@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: jsMobileConf
+title: jsMobileConf - a JavaScript developer conference in Boston, MA
 email: brian.rinaldi@progress.com
 description: >- # this means to ignore newlines until "baseurl:"
   jsMobileConf is a community-focused event sponsored by Progress Software to discuss
