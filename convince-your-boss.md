@@ -18,7 +18,7 @@ In addition to some powerful information and great new relationships, you’ll l
 
 ## Connect with Thought Leaders
 
-jsMobileConf will be packed with compelling sessions and opportunities to network with speakers. Session topics include building [Progressive Web Apps](https://jsmobileconf.com/schedule/session-bergenhem.html), building a Beatles tribute app with Vue.js and [Machine Learning](https://jsmobileconf.com/schedule/session-looper.html), diving into [Mobile UX](https://jsmobileconf.com/schedule/session-whelpley.html), [Webpack](https://jsmobileconf.com/schedule/session-parnell.html) performance optimization, and [Mixed Reality](https://jsmobileconf.com/schedule/session-yonet.html).
+jsMobileConf will be packed with compelling sessions and opportunities to network with speakers. Session topics include building [Progressive Web Apps](https://jsmobileconf.com/schedule/session-bergenhem.html), building a Beatles tribute app with Vue.js and [Machine Learning](https://jsmobileconf.com/schedule/session-looper.html), diving into [Mobile UX](https://jsmobileconf.com/schedule/session-whelpley.html), performance optimization with [Webpack](https://jsmobileconf.com/schedule/session-parnell.html), and [Mixed Reality](https://jsmobileconf.com/schedule/session-yonet.html).
 
 _Be sure to consult the [complete schedule](https://jsmobileconf.com/#lgx-schedule) as well!_
 
