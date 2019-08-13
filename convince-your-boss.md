@@ -12,13 +12,15 @@ jsMobileConf is designed to showcase a forward-thinking set of speakers and sess
 
 ## Help Your Company Win with JavaScript
 
-At jsMobileConf, you'll learn from some of the brightest minds across industries, including speakers from Microsoft, Netlify, Adobe, and Progress. You'll enjoy inspirational keynotes from folks like [Max Firtman](https://twitter.com/firt), an industry leader in mobility.
+At jsMobileConf, you'll learn from some of the brightest minds across industries, including speakers from Microsoft, Netlify, Adobe, and Progress/Telerik. You'll enjoy inspirational keynotes from folks like [Max Firtman](https://twitter.com/firt) and [David Neal](https://twitter.com/reverentgeek), industry leaders in JavaScript and mobility.
 
 In addition to some powerful information and great new relationships, you’ll leave jsMobileConf with actionable tools to help you take your JavaScript game to the next level.
 
 ## Connect with Thought Leaders
 
-jsMobileConf will be packed with compelling sessions and opportunities to network with speakers. Session topics include [Blockchain](https://jsmobileconf.com/schedule/session-day1-track2-1.html), sharing code across [web and native mobile apps](https://jsmobileconf.com/schedule/session-day1-track2-2.html), [AI and Machine Learning](https://jsmobileconf.com/schedule/session-day1-track2-3.html), debugging [Webpack](https://jsmobileconf.com/schedule/session-day1-track1-3.html), demystifying [serverless](https://jsmobileconf.com/schedule/session-day1-track1-4.html), bringing hardware into the mix with [IoT](https://jsmobileconf.com/schedule/session-day1-track1-5.html), and [Deep Learning with JavaScript](https://jsmobileconf.com/schedule/session-day1-track1-2.html).
+jsMobileConf will be packed with compelling sessions and opportunities to network with speakers. Session topics include building [Progressive Web Apps](https://jsmobileconf.com/schedule/session-bergenhem.html), building a Beatles tribute app with Vue.js and [Machine Learning](https://jsmobileconf.com/schedule/session-looper.html), diving into [Mobile UX](https://jsmobileconf.com/schedule/session-whelpley.html), [Webpack](https://jsmobileconf.com/schedule/session-parnell.html) performance optimization, and [Mixed Reality](https://jsmobileconf.com/schedule/session-yonet.html).
+
+_Be sure to consult the [complete schedule](https://jsmobileconf.com/#lgx-schedule) as well!_
 
 Each talk will offer tips, tricks, and tools for building, creating, and supporting next-generation digital experiences across all devices with JavaScript.
 
