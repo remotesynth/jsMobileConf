@@ -1,10 +1,10 @@
 ---
 layout: session
 keynote: false
-day: 2
-track: 1
-start: '1230'
-starttime: '12:30 PM'
+day: 1
+track: 2
+start: '1300'
+starttime: '1:00 PM'
 title: 'Embedding V8 in the Real World'
 speaker-last-name: Vlaeva
 short-description: 'In this session, we will cover various topics based on our experiences with the V8 engine - from GC synchronization, through implementing a multithreading model, up to practical advice for optimizing start up time.'

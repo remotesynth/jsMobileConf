@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 2
 track: 2
-start: '0945'
-starttime: '9:45 AM'
+start: '1330'
+starttime: '1:30 PM'
 title: 'Dark Patterns in UI — What NOT to Do to Your Users'
 speaker-last-name: Nicoll
 short-description: 'In this talk I will go over some very obvious (and some not so obvious) patterns that are used to manipulate users. Understanding usability gives us a lot of power as web and mobile designers/developers.'

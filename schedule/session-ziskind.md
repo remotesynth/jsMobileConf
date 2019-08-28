@@ -2,9 +2,9 @@
 layout: session
 keynote: false
 day: 2
-track: 1
-start: '1445'
-starttime: '2:45 PM'
+track: 2
+start: '1045'
+starttime: '10:45 AM'
 title: 'You Spin Me Round: JavaScript Animation Performance'
 speaker-last-name: Ziskind
 short-description: 'In this talk, Alex Ziskind digs into different animation techniques available to NativeScript developers and compares pros and cons of each.'

@@ -1,10 +1,10 @@
 ---
 layout: session
 keynote: false
-day: 2
-track: 2
-start: '1330'
-starttime: '1:30 PM'
+day: 1
+track: 1
+start: '1615'
+starttime: '4:15 PM'
 title: 'Automating Hockey Team Management with Serverless'
 speaker-last-name: MacDonald
 short-description: 'I’m Canadian so it’s safe to assume that I love hockey and I do. For over 10 years now I’ve organized a weekly hockey game with my friends. There are a lot of repetitive manual tasks needed to manage the game. Join me on my journey to completely automate the process using Node.js and Serverless.'

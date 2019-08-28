@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 1
 track: 2
-start: '1615'
-starttime: '4:15 PM'
+start: '1115'
+starttime: '11:15 AM'
 title: 'Building User Adaptive Interfaces'
 speaker-last-name: Keller
 short-description: 'How can we make computers aware of how focused or tired a user is? Using a simple JavaScript library, we can tap into a wealth of information about users to radically change they way we present information to them.'

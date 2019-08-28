@@ -1,10 +1,10 @@
 ---
 layout: session
 keynote: false
-day: 2
+day: 1
 track: 1
-start: '1045'
-starttime: '10:45 AM'
+start: '1400'
+starttime: '2:00 PM'
 title: 'How to Build Better Tutorials with Mixed Reality'
 speaker-last-name: Yonet
 short-description: 'We have evolved as humans to navigate a 3D world for millions of years. Yet, in the last 2000 years we are trying to represent our 3D world in 2D instructions. Abstracting 3D information on a 2D space has been the most efficient way to transfer knowledge and served us well. Today we are not limited by the technology anymore. In this talk, we will learn how to use Mixed Reality to create tutorials made for humans.'

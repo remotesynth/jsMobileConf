@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 1
 track: 2
-start: '1015'
-starttime: '10:15 AM'
+start: '1615'
+starttime: '4:15 PM'
 title: 'Building something Sweet! Delicious treats from large scale mobile development.'
 speaker-last-name: Walker
 short-description: 'Join Nathan to dive into how JavaScript helped deliver a fun and engaging mobile experience for Sweet. Gain insight into the mobile app’s setup and critical lessons learned in this large scale development.'

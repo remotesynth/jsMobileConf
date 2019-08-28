@@ -1,10 +1,10 @@
 ---
 layout: session
 keynote: false
-day: 1
-track: 2
-start: '1400'
-starttime: '2:00 PM'
+day: 2
+track: 1
+start: '1045'
+starttime: '10:45 AM'
 title: 'Coming Soon!'
 speaker-last-name: Hussein
 short-description: ''
