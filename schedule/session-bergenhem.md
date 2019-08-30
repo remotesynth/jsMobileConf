@@ -1,10 +1,10 @@
 ---
 layout: session
 keynote: false
-day: 1
-track: 1
-start: '1515'
-starttime: '3:15 PM'
+day: 2
+track: 2
+start: '1230'
+starttime: '12:30 PM'
 title: 'Why Every Web App Should be a PWA'
 speaker-last-name: Bergenhem
 short-description: 'In this session we will cover what makes a PWA great, lessons we can learn from PWAs that can apply to any application, and reasons why every web app should be a PWA.'
