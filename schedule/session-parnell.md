@@ -1,10 +1,10 @@
 ---
 layout: session
 keynote: false
-day: 1
-track: 1
-start: '1300'
-starttime: '1:00 PM'
+day: 2
+track: 2
+start: '1230'
+starttime: '12:30 PM'
 title: 'Webpack Performance Trickery'
 speaker-last-name: Parnell
 short-description: 'I’ll show you how in an 8 week period, we turned the CarGuru site’s performance around, and how we cut our build times from 20 minutes to 4. I’ll show off a set of plugins we wrote and webpack best practices that can make your apps scream.'
