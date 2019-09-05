@@ -1,16 +1,4 @@
-- name: "nStudio"
-  photo: "nstudio-logo.png"
+- name: 'nStudio'
+  photo: 'nstudio-logo.png'
   sponsor_level: 1
-  url: "https://nstudio.io"
-- name: "ten24"
-  photo: "ten24-logo.jpg"
-  sponsor_level: 2
-  url: "https://www.ten24web.com/"
-- name: "moltin"
-  photo: "moltin-logo.png"
-  sponsor_level: 2
-  url: "https://moltin.com/"
-- name: "thread"
-  photo: "thread-logo.png"
-  sponsor_level: 2
-  url: "https://www.threadlearning.com/"
+  url: 'https://nstudio.io'
