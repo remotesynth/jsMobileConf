@@ -1,6 +1,7 @@
 ---
 layout: session
 keynote: true
+keynoteposition: 2
 day: 2
 track: 1
 start: '1545'

@@ -4,9 +4,9 @@ title: Pre-Conference Workshop
 permalink: /workshop-chat/
 ---
 
-# TBD Chatbot Workshop
+# Chatbot Workshop
 
-TBD
+Details coming soon!
 
 ## Requirements
 

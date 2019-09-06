@@ -10,7 +10,7 @@ Let’s dive into successful architecture lessons to building well crafted mobil
 
 ## Requirements
 
-TBD
+MacBook with Xcode 10.3 + node 12.x and [NativeScript globally installed](https://docs.nativescript.org/angular/start/quick-setup) (npm i -g nativescript) is preferred (however it is not required). Some concepts we’ll be covering with the [NativeScript Playground](https://play.nativescript.org/) alone. Having a machine pre-configured will allow you to be more hands on with the workshop.
 
 ## Logistics
 

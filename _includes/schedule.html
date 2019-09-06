@@ -167,6 +167,40 @@
 
                                 <!-- day 2 -->
                                 <div id="menu2" class="tab-pane fade">
+
+                                    <!-- keynote (morning) -->
+                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | where: "keynoteposition", 1 | sort: "start" %}
+                                    {% for keynotes in keynotesDay2 %}
+                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
+                                        {% assign speaker = speakers | first %}
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-2">
+                                                <div class="time-area">
+                                                    {% assign time = keynotes.starttime | split: ' ' %}
+                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3">
+                                                <div class="author">
+                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
+                                                    <div class="author-info">
+                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h3 class="title"><a href="{{ keynotes.url }}">Keynote: {{keynotes.title}}</a></h3>
+                                                    <p>{{keynotes.short-description}}</p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+
                                     <!-- session -->
                                     {% assign day2track1 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", false | where: "track", "1" | sort: "start" %}
                                     {% for sessions in day2track1 %}
@@ -200,8 +234,8 @@
                                     </div>
 									{% endfor %}
 									
-                                    <!-- keynote -->
-                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | sort: "start" %}
+                                    <!-- keynote (afternoon) -->
+                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | where: "keynoteposition", 2 | sort: "start" %}
                                     {% for keynotes in keynotesDay2 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
@@ -235,6 +269,40 @@
                                 </div>
                                 <!-- track 2 -->
                                 <div id="menu3" class="tab-pane fade">
+
+                                    <!-- keynote (morning) -->
+                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | where: "keynoteposition", 1 | sort: "start" %}
+                                    {% for keynotes in keynotesDay2 %}
+                                        {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
+                                        {% assign speaker = speakers | first %}
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-2">
+                                                <div class="time-area">
+                                                    {% assign time = keynotes.starttime | split: ' ' %}
+                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3">
+                                                <div class="author">
+                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}"/></a>
+                                                    <div class="author-info">
+                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
+                                                        <p class="author-title">{{speaker.jobtitle}}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h3 class="title"><a href="{{ keynotes.url }}">Keynote: {{keynotes.title}}</a></h3>
+                                                    <p>{{keynotes.short-description}}</p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+
                                     <!-- session -->
                                     {% assign day2track2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", false | where: "track", "2" | sort: "start" %}
                                     {% for sessions in day2track2 %}
@@ -268,8 +336,8 @@
                                     </div>
 									{% endfor %}
 									
-                                    <!-- keynote -->
-                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | sort: "start" %}
+                                    <!-- keynote (afternoon) -->
+                                    {% assign keynotesDay2 = site.pages | where: "layout", "session" | where: "day", "2" | where: "keynote", true | where: "keynoteposition", 2 | sort: "start" %}
                                     {% for keynotes in keynotesDay2 %}
                                         {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name", keynotes.speaker-last-name %}
                                         {% assign speaker = speakers | first %}
