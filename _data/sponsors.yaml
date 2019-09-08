@@ -2,3 +2,11 @@
   photo: 'nstudio-logo.png'
   sponsor_level: 1
   url: 'https://nstudio.io'
+- name: 'Moovweb'
+  photo: 'moovweb-logo.png'
+  sponsor_level: 1
+  url: 'https://www.moovweb.com/'
+- name: 'Pro Plugins'
+  photo: 'pro-plugins.png'
+  sponsor_level: 2
+  url: 'https://proplugins.org/'
