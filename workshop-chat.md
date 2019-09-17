@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Pre-Conference Workshop
+title: Pre-Conference Workshops
 permalink: /workshop-chat/
 ---
 
-# Alexa, how do I build a chatbot?
+# Alexa, How Do I Build a Chatbot?
 
 Chatbots introduce a whole new way for users to interact with your websites. A good chatbot can save your users from long and complicated forms, cut down on support requests, and make your services more approachable.
 

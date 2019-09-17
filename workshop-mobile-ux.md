@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pre-Conference Workshop
+title: Pre-Conference Workshops
 permalink: /workshop-mobile-ux/
 ---
 
