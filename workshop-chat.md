@@ -4,13 +4,22 @@ title: Pre-Conference Workshop
 permalink: /workshop-chat/
 ---
 
-# Chatbot Workshop
+# Alexa, how do I build a chatbot?
 
-Details coming soon!
+Chatbots introduce a whole new way for users to interact with your websites. A good chatbot can save your users from long and complicated forms, cut down on support requests, and make your services more approachable.
+
+If you've ever wondered how to build a chatbot, then this session is for you. You will:
+
+- Dive into the core concepts of what makes a chatbot.
+- Learn how to employ Machine Learning and Natural Language Processing to create a conversation flow that feels 100% natural.
+- Look at a variety of possible conversations and challenges that go with them.
+- Build a chatbot that can be deployed to a digital assistance like Amazon Alexa!
+
+But more importantly, you will learn how to build a fully functioning chatbot in just a few hours, and all without a single IF statement.
 
 ## Requirements
 
-TBD
+Just a laptop! **Every attendee will receive a free Amazon Echo device.**
 
 ## Logistics
 
