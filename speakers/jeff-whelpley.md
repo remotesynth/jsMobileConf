@@ -2,8 +2,8 @@
 layout: speaker
 title: Jeff Whelpley
 last-name: Whelpley
-jobtitle: 'Co-founder and CTO at Swish.com'
-short-job-title: 'CTO at Swish.com'
+jobtitle: 'Google Developer Expert'
+short-job-title: 'Google Developer Expert'
 photo: 'jeffwhelpley.jpg'
 twitter: 'jeffwhelpley'
 github: 'jeffwhelpley'
