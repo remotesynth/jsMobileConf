@@ -1,6 +1,6 @@
 ---
 layout: speaker
-title: Tara Manicsic
+title: Tara Z. Manicsic
 last-name: Manicsic
 jobtitle: 'Angular Developer Experience Engineer at Netlify'
 short-job-title: 'Angular Developer Experience Engineer'
