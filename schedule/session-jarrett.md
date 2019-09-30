@@ -7,7 +7,7 @@ track: 1
 start: '0900'
 starttime: '9:00 AM'
 title: 'Coming Soon!'
-speaker-last-name: Tcherevik
+speaker-last-name: Jarrett
 short-description: ''
 ---
 
