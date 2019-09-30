@@ -2,14 +2,14 @@
 layout: speaker
 title: Loren Jarrett
 last-name: Jarrett
-jobtitle: 'GM Developer Tooling Business, Progress'
+jobtitle: 'GM Developer Tools Business, Progress'
 short-job-title: 'General Manager, Progress'
 photo: 'loren-jarrett.jpg'
 twitter: 'LorenJarrett'
 keynote: true
 ---
 
-As General Manager of the Developer Tooling Business, Loren is responsible for driving all facets of the business including sales, demand generation, engineering, product management, product marketing, customer success, support, and developer relations for the industry-leading product lines Telerik, Kendo UI, DevCraft, Test Studio, and the recently announced Unite UX product.
+As General Manager of the Developer Tools Business, Loren is responsible for driving all facets of the business including sales, demand generation, engineering, product management, product marketing, customer success, support, and developer relations for the industry-leading product lines Telerik, Kendo UI, DevCraft, Test Studio, and the recently announced Unite UX product.
 
 Loren has two decades of strong go-to-market and product experience in the enterprise software industry with an extensive background in Product Marketing, Product Management, Marketing, Sales and Go-to-Market for both enterprise and high-velocity businesses. She has a track record of driving growth for venture capital and private equity-backed businesses, and strong experience selling to developers.
 
