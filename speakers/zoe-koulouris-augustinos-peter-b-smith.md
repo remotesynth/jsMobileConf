@@ -1,6 +1,6 @@
 ---
 layout: speaker
-title: Zoe Koulouris Augustinos & Peter Smith
+title: Zoe Koulouris Augustinos & Peter B Smith
 last-name: Augustinos
 jobtitle: 'Partners at Upstate Interactive'
 short-job-title: 'Partners at Upstate Interactive'
