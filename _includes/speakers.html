@@ -20,7 +20,7 @@
                 <div class="row">
 					{% assign keynotes = site.pages | where: "layout", "speaker" | where: "keynote", "true" | sort: "last-name" %}
 					{% for speaker in keynotes %}
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
                         <div class="lgx-single-speaker">
                             <figure>
                                 <a class="profile-img" href="/speakers/{{ speaker.title | slugify }}"></a>

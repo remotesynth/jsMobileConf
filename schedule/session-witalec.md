@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 2
 track: 2
-start: '0945'
-starttime: '9:45 AM'
+start: '1015'
+starttime: '10:15 AM'
 title: 'Alexa, Top Me Up!'
 speaker-last-name: Witalec
 short-description: 'Join me to learn how to build your own Alexa skill. We will build a chatbot that will help the customers of C-Mobile check their balance and top up their phones.'

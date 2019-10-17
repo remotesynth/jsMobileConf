@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 2
 track: 2
-start: '1445'
-starttime: '2:45 PM'
+start: '1515'
+starttime: '3:15 PM'
 title: 'What AR You Waiting For?'
 speaker-last-name: Verbruggen
 short-description: 'Let’s sit down together and look at the current state of augmented reality and explore an option that doesn’t require you to reverse a binary tree every 10 lines of code.'

@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 2
 track: 1
-start: '1330'
-starttime: '1:30 PM'
+start: '1400'
+starttime: '2:00 PM'
 title: 'JavaScript Mobile Testing and CI in the Cloud'
 speaker-last-name: Todorov
 short-description: 'Mobile application testing is crucial for today’s software development market, since almost every enterprise wants to develop and deliver first class mobile apps. In this session, I will show one of our approaches to transparent CI process in the cloud with zero local infrastructure, using popular services like Travis-CI, SauceLabs and GitHub.'

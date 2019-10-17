@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 2
 track: 1
-start: '0945'
-starttime: '9:45 AM'
+start: '1015'
+starttime: '10:15 AM'
 title: 'Client-Side Data Storage'
 speaker-last-name: Camden
 short-description: 'A deep dive into how browsers enable websites to store data for your users. This will include a look at the options, discussions of when to use what, and a look at libraries to make them easier to use.'

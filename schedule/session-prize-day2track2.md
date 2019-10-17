@@ -2,10 +2,10 @@
 layout: session
 keynote: false
 day: 2
-track: 1
-start: '1200'
-starttime: '12:00 PM'
-title: 'Lunch! 🍲'
+track: 2
+start: '1615'
+starttime: '4:15 PM'
+title: 'Wrap Up and Prizes! 🎁'
 speaker-last-name: NA
 short-description:
 ---

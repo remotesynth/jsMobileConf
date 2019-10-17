@@ -3,8 +3,8 @@ layout: session
 keynote: false
 day: 2
 track: 1
-start: '1445'
-starttime: '2:45 PM'
+start: '1515'
+starttime: '3:15 PM'
 title: 'Serverless, Async/Await, Immutability and Other Things You Pretend to Understand'
 speaker-last-name: Manicsic
 short-description: 'Join me as we walk through plain English descriptions and joyful anecdotes of these mysterious terms. I aim to help you understand these terms enough to explain them to all the people you know that also pretend to understand them. “Currying? Sounds delicious!” is something you can avoid saying after this session.'
