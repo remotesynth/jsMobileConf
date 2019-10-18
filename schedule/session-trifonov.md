@@ -15,3 +15,8 @@ short-description: 'In this session, the lead engineer of the Nativescript Playg
 Have you ever wondered how it works? How does the magic happen?
 
 In this session, the lead engineer of the Nativescript Playground will show you behind the curtains. Vasil will reveal the architecture and technologies behind the Playground. He will explain the problems faced, the lessons learned, and the decisions made along the way.
+
+To prepare for the demos in the session, please install the following app on your phone:
+
+- NativeScript Playground: [iOS](https://itunes.apple.com/us/app/nativescript-playground/id1263543946?mt=8&ls=1)/[Android](https://play.google.com/store/apps/details?id=org.nativescript.play)
+- NativeScript Preview: [iOS](https://itunes.apple.com/us/app/nativescript-playground/id1264484702?mt=8&ls=1)/[Android](https://play.google.com/store/apps/details?id=org.nativescript.preview)
