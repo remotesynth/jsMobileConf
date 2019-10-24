@@ -5,9 +5,9 @@ day: 1
 track: 1
 start: '1015'
 starttime: '10:15 AM'
-title: 'Lucy in the Sky with ML: Building the Ultimate Beatles Tribute App'
+title: 'WineUp: Wine, Cheese, Vue'
 speaker-last-name: Looper
-short-description: 'Twist and shout with me as I walk through the creation of the ultimate Beatles tribute app. Using Vue.js to build a native mobile app, you will learn about the challenges inherent in building this kind of app into a truly multimedia experience.'
+short-description: 'In this talk, I will walk you through the decision-making process on the ways to introduce machine learning into your mobile app. I will demonstrate how to scaffold a native mobile app built with Vue, and then how to combine database calls, cognitive services, and a custom-trained TensorFlow lite model to build the ultimate gourmet app.'
 ---
 
-Twist and shout with me as I walk through the creation of the ultimate Beatles tribute app, over 50 years after the British Invasion. Using Vue.js to build a native mobile app, you'll learn about the challenges inherent in building this kind of app into a truly multimedia experience. We’ll discuss building an art project within the app with an interactive album-creator, how to build a soundboard, and how to use machine learning to learn more about the poetry of the Beatles. We'll take a look, finally, on whether we can even improve on the classic songs by running their lyrics through a recurrent neural network. Can generated lyrics be anywhere near as interesting as the original? Let's find out as we bring the 1960s into 2019.
+Any developer who has tried to enhance a mobile app has been tempted by the siren song of machine learning. Who can resist making your app smarter, more responsive, more customized to a user's needs? There are a lot of really great cognitive services that promise to enhance your app with pretrained models, and sometimes those work really well. But most of the time, you need something much more custom, just as special as your app. In this talk, I'll walk you through the decision-making process on the ways to introduce machine learning into your mobile app. I'll demonstrate how to scaffold a native mobile app built with Vue, and then how to combine database calls, cognitive services, and a custom-trained TensorFlow lite model to build the ultimate gourmet app: WineUp, an app that helps lovers of wine and cheese to make the perfect flavor pairings. Come to the vineyard with me and taste the beautiful combination of wine, cheese, Vue.js, mobile apps, and machine learning!
