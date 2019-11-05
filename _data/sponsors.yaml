@@ -1,3 +1,7 @@
+- name: 'Microsoft'
+  photo: 'microsoft.png'
+  sponsor_level: 1
+  url: 'https://www.microsoft.com/'
 - name: 'nStudio'
   photo: 'nstudio-logo.png'
   sponsor_level: 1
