@@ -1,7 +1,7 @@
 - name: 'Microsoft'
-  photo: 'microsoft.png'
+  photo: 'microsoft-azure.png'
   sponsor_level: 1
-  url: 'https://www.microsoft.com/'
+  url: 'https://azure.microsoft.com/en-us/resources/join-the-azure-developer-community/?ocid=AID2428618'
 - name: 'nStudio'
   photo: 'nstudio-logo.png'
   sponsor_level: 1
